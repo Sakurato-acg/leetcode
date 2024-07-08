@@ -10,9 +10,7 @@ import java.util.List;
 public class 相向双指针1 {
     // https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int i = solution.triangleNumber(new int[]{2, 2, 3, 4});
-        System.out.println("i = " + i);
+        Solution2 solution = new Solution2();
     }
 }
 
